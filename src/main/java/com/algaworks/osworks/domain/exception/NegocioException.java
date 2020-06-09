@@ -1,10 +1,10 @@
 package com.algaworks.osworks.domain.exception;
 
-public class NegocioExceprion extends RuntimeException {
+public class NegocioException extends RuntimeException {
 
 	private static final long serialVersionUID = 1L;
 
-	public NegocioExceprion(String message) {
+	public NegocioException(String message) {
 		super(message);
 	}
 }
